@@ -37,7 +37,7 @@ Route::get('/formulaire', function () {
 }); 
 
 use App\Http\Controllers\table1;
-//  test
+//aaaa
 Route::get('/layouts/formulaire', [table1::class, 'formulaire'])->name('formulaire');
 
 
